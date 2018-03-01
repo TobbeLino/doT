@@ -26,6 +26,9 @@ doT.js is fast, small and has no dependencies.
 
 http://olado.github.com/doT (todo: update docs with new features added in version 1.0.0)
 
+## Added in vergic-doT
+Possibility to skip generating an encodeHTML()-function in *every* template function. Instead specify a function name for a globally defined encodeHTML()-function with the templateSetting "globalEncodeHTMLFnName"
+
 ## New in version 1.0.0
 
 #### Added parameters support in partials

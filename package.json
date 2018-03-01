@@ -1,5 +1,5 @@
 {
-  "name": "dot",
+  "name": "vergic-doT",
   "description": "Concise and fast javascript templating compatible with nodejs and other javascript environments",
   "keywords": [
     "template",
@@ -7,7 +7,7 @@
     "simple",
     "templating"
   ],
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "index.js",
   "browser": "doT.js",
   "bin": {
@@ -24,8 +24,7 @@
     "eslint": "if-node-version '>=4' eslint *.js --ignore-pattern *.min.js",
     "test-cov": "nyc mocha test/*.test.js",
     "test": "npm run eslint && npm run test-cov",
-    "bundle": "uglifyjs doT.js -o doT.min.js -c -m --preamble '/* Laura Doktorova https://github.com/olado/doT */'",
-    "prepublish": "npm run bundle"
+    "bundle": "uglifyjs doT.js -o doT.min.js -c -m"
   },
   "dependencies": {},
   "devDependencies": {
