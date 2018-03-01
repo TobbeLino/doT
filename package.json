@@ -1,5 +1,5 @@
 {
-  "name": "vergic-doT",
+  "name": "vergic-dot",
   "description": "Concise and fast javascript templating compatible with nodejs and other javascript environments",
   "keywords": [
     "template",
@@ -7,7 +7,7 @@
     "simple",
     "templating"
   ],
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "index.js",
   "browser": "doT.js",
   "bin": {
